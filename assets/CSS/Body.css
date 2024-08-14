@@ -1,0 +1,235 @@
+.contend {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 670px;
+}
+
+.contend11 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contend11A {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    width: 100%;
+    max-width: 1200px;
+
+    padding-left: 3%;
+    padding-right: 3%;
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 20px; */
+
+}
+
+.Cont1ALeft {
+    width: 45%;
+    height: auto;
+}
+
+.Cont1ALeft img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.Cont1ARight {
+    width: 50%;
+    min-width: 240px;
+    height: auto;
+
+}
+
+.Cont1ARight h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #1d2a3d;
+}
+
+.Cont1ARight P {
+    font-size: 18px;
+    line-height: 35px;
+    color: #485364;
+}
+
+.contend22 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contend22A {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 10px;
+
+    width: 100%;
+    max-width: 1200px;
+
+    padding-left: 3%;
+    padding-right: 3%;
+
+    height: auto;
+}
+
+.contend22A h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Cerebrisans, sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    width: 100%;
+    color: #1d2a3d;
+}
+
+.GridCont {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 350px);
+    grid-auto-rows: auto;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.GridItem {
+    background-color: #f5f9ff;
+    transition: 0.4s ease all;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.GridItem:hover {
+    background-color: #cbe2ff62;
+}
+
+.LI {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: block;
+}
+
+.PI {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: none;
+}
+
+.GridItem h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #1d2a3d;
+}
+
+.GridItem P {
+    font-size: 17px;
+    line-height: 27px;
+    color: #485364;
+}
+
+.GridCont::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.contend33 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.contend33A {
+    margin-top: 30px;
+
+    margin-left: 3%;
+    margin-right: 3%;
+
+    width: 100%;
+    max-width: 1200px;
+
+    padding-left: 3%;
+    padding-right: 3%;
+
+    padding-bottom: 30px;
+
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #f5f9ff;
+
+    border-radius: 8px;
+}
+
+.contend33A h1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 32px;
+    line-height: 62px;
+    margin-top: 20px;
+    color: #1d2a3d;
+}
+
+.contend33A p {
+    text-align: center;
+    width: 385px;
+    font-size: 18px;
+    line-height: 35px;
+    color: #485364;
+}
+
+.contend33A button {
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 30px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    background-color: #0353b6;
+    color: white;
+}
+
+.contend33A span {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #485364;
+}

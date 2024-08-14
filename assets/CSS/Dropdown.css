@@ -1,0 +1,154 @@
+.DropDown {
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+    position: fixed;
+    z-index: 5;
+
+    transition: 0.4s ease all;
+}
+
+.DDAlign {
+    width: 94%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.DDA11 {
+    width: 100%;
+    height: 51px;
+}
+
+.pricingBut {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: white;
+    color: #1d2a3d;
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+
+.DDA22 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.SigninB {
+    width: 100%;
+    height: 48px;
+    background-color: #313e80;
+    color: white;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+.LogininB {
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    color: #1d2a3d;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 600;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+}
+
+.DDAlign button {
+    transform: 0.4s ease all;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.DDAlign button a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DDAlign button:hover {
+    background-color: #cbe2ff62;
+    color: #1d2a3d;
+    border: none;
+    box-shadow: unset;
+}
+
+
+.DropDown {
+    display: none;
+}
+
+
+.HeaederRightMobiles {
+    display: none;
+}
+
+@media (max-width: 560px) {
+
+    .DropDown {
+        display: block;
+    }
+
+    .HeaederRightMobiles {
+        display: block;
+    }
+}
+
+.DropDownS {
+    top: 80px;
+    display: block;
+}
+
+.DropDownH {
+    top: -500px;
+
+}
+
+.barsAlign {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.Bars1,
+.Bars2,
+.Bars3 {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+}

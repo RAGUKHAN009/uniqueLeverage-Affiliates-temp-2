@@ -1,0 +1,102 @@
+.scrolled .heroContAlign .HeroContA11 .HeroContA11L {
+    animation: headerLeft 0.4s linear forwards;
+
+    transform: translate(-100px);
+    opacity: 0;
+}
+
+@keyframes headerLeft {
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.scrolled .heroContAlign .HeroContA11 .HeroContA11L .HeroContA h3 {
+
+    animation: headerLefth3 0.8s linear forwards;
+    animation-delay: 0.4s;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+@keyframes headerLefth3 {
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.scrolled .heroContAlign .HeroContA11 .HeroContA11L .HeroContA .HeroContAh1 {
+
+    animation: headerLefth1 0.8s linear forwards;
+    animation-delay: 0.6s;
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+@keyframes headerLefth1 {
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.scrolled .heroContAlign .HeroContA11 .HeroContA11L .HeroContA p {
+
+    animation: headerLeftP 0.8s linear forwards;
+    animation-delay: 1.6s;
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+@keyframes headerLeftP {
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.scrolled .heroContAlign .HeroContA11 .HeroContA11L .HeroContA .heroButtons .HB1 {
+
+    animation: headerLeftB1 0.8s linear forwards;
+    animation-delay: 2.4s;
+    transform: translateX(100px);
+    opacity: 0;
+}
+
+@keyframes headerLeftB1 {
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.scrolled .heroContAlign .HeroContA11 .HeroContA11L .HeroContA .heroButtons .HB2 {
+
+    animation: headerLeftB2 0.8s linear forwards;
+    animation-delay: 3s;
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+@keyframes headerLeftB2 {
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.scrolled .heroContAlign .HeroContA11 .HeroContA11R {
+    animation: headerRight 0.8s linear forwards;
+    animation-delay: 2s;
+    transform: translate(-100px);
+    opacity: 0;
+}
+
+@keyframes headerRight {
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}

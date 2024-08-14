@@ -1,0 +1,296 @@
+@media (max-width: 945px) {
+    .FooterGrid {
+        grid-template-columns: 120px 190px 210px;
+    }
+}
+
+@media (max-width: 769px) {
+
+
+    .heroCont {
+        height: auto;
+    }
+
+    .HeroContA11 {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .HeroContA11L {
+        width: 536px;
+        height: auto;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .FooterGrid {
+        grid-template-columns: 120px 190px 210px;
+    }
+
+    .contend {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 883px;
+    }
+
+    .HeroContA11R img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .HeroContA11R {
+        height: 441.27px;
+    }
+
+    .contend11A {
+        flex-direction: column-reverse;
+    }
+
+    .Cont1ARight {
+        width: 100%;
+    }
+
+    .Cont1ALeft {
+        width: 75%;
+        margin-top: 60px;
+    }
+
+    .contend22A {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .footerCoppy {
+        height: auto;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .CopRightNavs,
+    .CopyRightText {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .CopRightNavs a {
+        width: max-content;
+    }
+
+
+
+
+}
+
+@media (max-width: 604px) {
+    .FooterGrid {
+        grid-template-columns: 190px 190px;
+        justify-content: normal;
+    }
+
+    .Contact {
+        grid-column: 1/-1;
+    }
+
+    .HeroContA h3 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .HeroContA {
+        width: 100%;
+        align-items: center;
+    }
+
+    .HeroContAh1 h1 {
+        font-size: 45px;
+        line-height: 65px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        color: #1d2a3d;
+        text-align: center;
+    }
+
+    .HeroContAh1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .HeroContAh1::before {
+        left: unset;
+    }
+
+    .HeroContA p {
+        text-align: center;
+    }
+
+    .heroButtons {
+        justify-content: center;
+    }
+
+    .HeroContA11R {
+        height: 331.27px;
+        padding-bottom: 20px;
+    }
+
+    .contend {
+        top: 800px;
+    }
+
+    .Cont1ALeft {
+        width: 100%;
+    }
+
+    .contend22A {
+        margin-top: 30px;
+    }
+
+    .GridCont {
+        grid-template-columns: 1fr;
+    }
+
+    .LI {
+        display: none;
+    }
+
+    .PI {
+        display: block;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .heaederRight {
+        display: none;
+    }
+
+    .HeaederRightMobiles {
+        display: block;
+    }
+
+    .HeroContA11L {
+        width: 100%;
+    }
+
+    .HeroContA11R {
+        height: auto;
+        padding-bottom: 20px;
+        width: 80%;
+    }
+
+    .FooterGrid {
+        grid-template-columns: 120px 190px;
+        justify-content: normal;
+    }
+
+    .HeroContA h3 {
+        font-size: 14.41px;
+    }
+
+    .contend33A p {
+        width: 100%;
+    }
+
+    .CopyRightText p {
+        font-weight: 300;
+        font-size: 10px;
+    }
+
+    .CopRightNavs a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .heaederLeft,
+    .FoterLogoCont {
+        width: 200px;
+    }
+
+    .contend33A h1 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 14px;
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 20px;
+        color: #1d2a3d;
+    }
+
+    .contend {
+        top: 750px;
+    }
+}
+
+@media (max-width: 321px) {
+    .HeroContAh1 {
+        width: 310px;
+    }
+
+    .HeroContAh1 h1 {
+        font-size: 40px;
+    }
+
+    .heroButtons {
+        height: auto;
+        flex-direction: column;
+        gap: 22px;
+    }
+
+
+    .Cont1ARight h2,
+    .contend22A h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .contend33A h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .FooterGrid {
+        grid-template-columns: 190px;
+    }
+
+    .HeroContA p,
+    .Cont1ARight P,
+    .GridItem P,
+    .contend33A p {
+        margin-top: 27px;
+        font-size: 15px;
+    }
+
+    .contend33A span {
+        font-size: 13px;
+    }
+
+    .FooterGItem h2,
+    .FooterGItem p {
+        font-size: 13px;
+    }
+
+    .contend {
+        top: 750px;
+    }
+
+
+}
+
+.HeaderLaptop {
+    box-shadow: 0px 3px 20px 0px #cae0fd14;
+}
+
+header button {
+    transition: 0.4s ease all;
+}
+
+header button:hover {
+    background-color: #ffffff2b;
+}
