@@ -152,6 +152,7 @@
 
     .GridCont {
         grid-template-columns: 1fr;
+        overflow: unset;
     }
 
     .LI {
